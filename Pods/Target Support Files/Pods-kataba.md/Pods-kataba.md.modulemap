@@ -1,0 +1,6 @@
+framework module Pods_kataba_md {
+  umbrella header "Pods-kataba.md-umbrella.h"
+
+  export *
+  module * { export * }
+}
