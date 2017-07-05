@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func next(trasitionName :String){
+        let next = storyboard!.instantiateViewController(withIdentifier: trasitionName)
+        self.present(next,animated: true, completion: nil)
+    }
 
 
 }

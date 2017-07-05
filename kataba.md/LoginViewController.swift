@@ -14,10 +14,16 @@ class LoginViewController: ViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     
+    let ud = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if UserDefaults.standard.object(forKey: "id") != nil{
+            next(trasitionName: "topVIewController")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +42,8 @@ class LoginViewController: ViewController {
             
             if let user = user {
                 print("user : \(user.email!)ユーザーを作成しました")
+                self.ud.set("Logined User Flag", forKey: "id")
+                self.next(trasitionName: "topVIewController")
             }
         })
     }

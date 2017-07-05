@@ -12,7 +12,7 @@
         <!--ログイン画面 -->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="ログイン画面 " customClass="LoginViewController" customModule="kataba_md" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="BYZ-38-t0r" userLabel="ログイン画面 " customClass="LoginViewController" customModule="kataba_md" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -67,7 +67,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155.07246376811597" y="142.66304347826087"/>
+            <point key="canvasLocation" x="55" y="125"/>
+        </scene>
+        <!--Top View Controller-->
+        <scene sceneID="8vv-Qm-geQ">
+            <objects>
+                <viewController storyboardIdentifier="topVIewController" id="vBb-1V-YFT" customClass="TopViewController" customModule="kataba_md" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z60-cx-ug3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rk3-km-dpe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vHK-M1-rWU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXr-wS-GMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="125"/>
         </scene>
     </scenes>
 </document>

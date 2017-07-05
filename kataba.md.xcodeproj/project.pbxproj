@@ -17,6 +17,7 @@
 		19471F261F0A85B3000DDF13 /* kataba_mdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19471F251F0A85B3000DDF13 /* kataba_mdUITests.swift */; };
 		19471F371F0BB828000DDF13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19471F361F0BB828000DDF13 /* LoginViewController.swift */; };
 		199CDF131F0D0F35008F4381 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199CDF121F0D0F35008F4381 /* GoogleService-Info.plist */; };
+		199CDF151F0D1AF7008F4381 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199CDF141F0D1AF7008F4381 /* TopViewController.swift */; };
 		3A23C8FD533341053B65422A /* Pods_kataba_mdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96820D471DE12C9AB97B044B /* Pods_kataba_mdUITests.framework */; };
 		F810161021D6582997A5DA8C /* Pods_kataba_mdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CF68572852D1863F9DF4F /* Pods_kataba_mdTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		19471F271F0A85B3000DDF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19471F361F0BB828000DDF13 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		199CDF121F0D0F35008F4381 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/yamadashougo/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		199CDF141F0D1AF7008F4381 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		2E58284BDB2A897A361D4F6F /* Pods-kataba.mdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kataba.mdTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kataba.mdTests/Pods-kataba.mdTests.release.xcconfig"; sourceTree = "<group>"; };
 		93C850CBFD4CBE96006D0FE1 /* Pods-kataba.mdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kataba.mdTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kataba.mdTests/Pods-kataba.mdTests.debug.xcconfig"; sourceTree = "<group>"; };
 		96820D471DE12C9AB97B044B /* Pods_kataba_mdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kataba_mdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 			children = (
 				19471F071F0A85B2000DDF13 /* ViewController.swift */,
 				19471F361F0BB828000DDF13 /* LoginViewController.swift */,
+				199CDF141F0D1AF7008F4381 /* TopViewController.swift */,
 			);
 			name = viewcontrollers;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199CDF151F0D1AF7008F4381 /* TopViewController.swift in Sources */,
 				19471F371F0BB828000DDF13 /* LoginViewController.swift in Sources */,
 				19471F081F0A85B2000DDF13 /* ViewController.swift in Sources */,
 				19471F061F0A85B2000DDF13 /* AppDelegate.swift in Sources */,

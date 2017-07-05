@@ -10,6 +10,9 @@ target 'kataba.md' do
   pod 'MaterialComponents'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'SlideMenuControllerSwift'
+
+
 
   target 'kataba.mdTests' do
     inherit! :search_paths
