@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: ViewController {
 
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,5 +24,21 @@ class LoginViewController: ViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func loginButtonAction(_ sender: Any) {
+        
+        Auth.auth().createUser(withEmail: email.text!, password: password.text!, completion: { user, error in
+            
+            if let error = error {
+                print("ユーザーを作れませんでした \(error)")
+                return
+            }
+            
+            if let user = user {
+                print("user : \(user.email!)ユーザーを作成しました")
+            }
+        })
+    }
+    
 
 }

@@ -8,6 +8,8 @@ target 'kataba.md' do
   # Pods for kataba.md
 
   pod 'MaterialComponents'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'kataba.mdTests' do
     inherit! :search_paths
